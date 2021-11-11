@@ -11,7 +11,7 @@ public class PermutationString {
             if (set.contains(array))
                 return;
             set.add(array);
-            System.out.println("the " + array);
+            System.out.println("The " + array);
             return;
         }
         for (int i = l; i <= r; i++) {
@@ -30,7 +30,7 @@ public class PermutationString {
     }
 
     public static void main(String[] args) {
-        permutation("abcd", 0, 3);
+        permutation("abcde", 0, 3);
 
     }
 }
